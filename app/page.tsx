@@ -1,4 +1,6 @@
 import Navigation from "@/components/front-end/Header/Navigation";
+import Contact from "@/components/front-end/Main/Contact";
+import Footer from "@/components/front-end/Main/Footer";
 import Portfolio from "@/components/front-end/Main/Portfolio";
 import Presentation from "@/components/front-end/Main/Presentation";
 import Services from "@/components/front-end/Main/Services";
@@ -28,6 +30,12 @@ export default function Home() {
         <Portfolio /> 
       </div>
       <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+      <div className="px-24 py-6">
+        <Contact /> 
+      </div>
+            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+      <Footer />
+    
    </main>
   );
 }
