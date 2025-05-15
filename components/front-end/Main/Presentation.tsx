@@ -5,21 +5,23 @@ import React from 'react'
 
 const Presentation = () => {
   return (
-    <div className='my-24 w-full flex justify-between items-center border-b-2 border-white/20'>
+    <div className='my-12 sm:my-24 w-full flex md:flex-row flex-col-reverse justify-between items-center  border-white/20'>
         {/* left side */}
-        <div className='flex flex-col gap-16 w-1/2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500'>
+        <div className='flex flex-col pt-12 gap-16 w-full md:w-1/2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500'>
             {/* title */}
-            <h1 className='font-medium uppercase text-7xl tracking-wider leading-26'>FrontEnd<br />
-            Developer</h1>
-            {/* description */}
-            <p className="text-white/80 leading-relaxed text-lg font-light">
-  I&apos;m <span className="text-teal-400 font-semibold">Bouaoune Djamel</span>, also known as <span className="text-teal-400 font-semibold">Jimmy</span>. I&apos;m a <span className="text-emerald-400 font-semibold">Full Stack Web Developer</span> specializing in <span className="text-sky-400 font-semibold">React</span>, <span className="text-sky-400 font-semibold">Next.js</span>, <span className="text-indigo-400 font-semibold">TypeScript</span>, <span className="text-green-400 font-semibold">MongoDB</span>, and <span className="text-cyan-400 font-semibold">Tailwind CSS</span>. I build <span className="text-emerald-400 font-semibold">scalable</span>, <span className="text-emerald-400 font-semibold">high-performance</span> web applications using modern frameworks and technologies.
-</p>
-            {/* button */}
-            <div className='flex items-start'>
-            {/* <Button className='cursor-pointer bg-gradient-to-r px-8 py-4 from-pink-500 via-purple-500 to-indigo-500 text-white flex items-center justify-center font-semibold rounded-full'>
-             My Portfolio <Briefcase className='inline-block mr-2' size={20} color='white'/></Button> */}
+            <h1 className=' text-center md:text-start font-bold sm:font-medium uppercase text-6xl sm:text-7xl sm:tracking-wider leading-20 sm:leading-26'>
+              FrontEnd<br />
+              Developer
+            </h1>
 
+            {/* description */}
+            <p className="text-white/80 text-center md:text-start leading-relaxed text-lg font-light">
+  I&apos;m <span className="text-teal-400 font-semibold">Bouaoune Djamel</span>, also known as <span className="text-teal-400 font-semibold">Jimmy</span>. I&apos;m a <span className="text-emerald-400 font-semibold">Full Stack Web Developer</span> specializing in <span className="text-sky-400 font-semibold">React</span>, <span className="text-sky-400 font-semibold">Next.js</span>, <span className="text-indigo-400 font-semibold">TypeScript</span>, <span className="text-green-400 font-semibold">MongoDB</span>, and <span className="text-cyan-400 font-semibold">Tailwind CSS</span>. I build <span className="text-emerald-400 font-semibold">scalable</span>, <span className="text-emerald-400 font-semibold">high-performance</span> web applications using modern frameworks and technologies.
+            </p>
+            {/* button */}
+            
+            <div className='flex md:items-start md:justify-start justify-center gap-4 mt-12'>
+           
                 <div className='cursor-pointer relative rounded-full p-0.5 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500'>
                     
                     <div className='flex items-center gap-4 justify-center bg-[#111723] text-white/80 px-8 py-4 rounded-full'>My Portfolio 
@@ -29,8 +31,7 @@ const Presentation = () => {
   ></div>
                 </div>
             </div>
-            
-            
+        
         </div>
         {/* right side */}
         <div className='flex justify-end relative'>
