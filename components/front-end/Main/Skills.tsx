@@ -45,7 +45,7 @@ const Skills = () => {
         },
         {
             logo : '/logoweb/mongodb.png',
-            title : 'Mongo DB'
+            title : ''
             
         },
         {
@@ -55,10 +55,6 @@ const Skills = () => {
         {
             logo : '/logoweb/github.png',
             title : 'GitHub',
-        },
-        {
-            logo : '/logoweb/npm.png',
-            title : 'NPM',
         },
 
     ]
@@ -79,17 +75,19 @@ const Skills = () => {
   {/* All skills in a shared group */}
   <div className="group flex flex-col gap-8 items-center">
     {/* Top row */}
-    <div className="flex items-center gap-4">
+    <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-8 ">
       {top.map((item, index) => (
+        <LogoCards key={index} src={item.logo} title={item.title} />
+        
+      ))}
+      {bottom.map((item, index) => (
         <LogoCards key={index} src={item.logo} title={item.title} />
       ))}
     </div>
 
     {/* Bottom row */}
-    <div className="flex items-center gap-4">
-      {bottom.map((item, index) => (
-        <LogoCards key={index} src={item.logo} title={item.title} />
-      ))}
+    <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 ">
+      
     </div>
   </div>
 </div>
