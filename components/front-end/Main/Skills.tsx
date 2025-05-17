@@ -67,7 +67,7 @@ const Skills = () => {
     
     {/* Description */}
     <p className="text-white text-5xl font-medium mt-4 mb-20 text-center tracking-wider">
-        The skills, tools and Technologies I use: 
+        The Skills, Tools and Technologies i use: 
     </p>
     <div className="absolute w-72 h-72 bg-indigo-500/20 blur-3xl rounded-full top-[250px] left-[300px] z-0" />
 
