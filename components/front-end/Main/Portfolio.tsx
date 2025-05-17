@@ -23,8 +23,8 @@ const Portfolio = () => {
             tracking-wider leading-26'>Portfolio
             </h1>
         </div>
-        <div>
-            <div className="grid group grid-cols-3 gap-8 mt-12">
+        <div className='flex flex-col items-center justify-center w-full h-full gap-4'>
+            <div className="grid group 2xl:grid-cols-3 md:grid-cols-2  grid-cols-1 xl:gap-4 gap-8 mt-12 items-center">
                 {websites.map((website, index) => (
                     <div  key={index}>
                         <WebsiteCards  src={website.src} title={website.title} />
