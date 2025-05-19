@@ -5,9 +5,9 @@ import React from 'react'
 
 const Presentation = () => {
   return (
-    <div className='my-12 sm:my-24 w-full flex md:flex-row flex-col-reverse justify-between items-center  border-white/20'>
+    <div className='my-12 sm:my-24 w-full flex xl:flex-row flex-col-reverse justify-between items-center  border-white/20'>
         {/* left side */}
-        <div className='flex flex-col pt-12 gap-16 w-full md:w-1/2 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500'>
+        <div className='flex flex-col pt-12 gap-16 w-full  text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500'>
             {/* title */}
             <h1 className=' text-center md:text-start font-bold sm:font-medium uppercase text-6xl sm:text-7xl sm:tracking-wider leading-20 sm:leading-26'>
               FrontEnd<br />

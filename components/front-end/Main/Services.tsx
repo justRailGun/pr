@@ -42,7 +42,8 @@ const Services = () => {
       <div className="absolute w-1 bg-white/20 z-0
        xl:top-24 xl:left-1/2 transform xl:-translate-x-1/2 xl:h-[calc(100%-10rem)]
        top-24 left-1/2 -translate-x-1/2 h-[calc(100%-10rem)]" />
-      <div className="absolute w-52 h-52 bg-pink-500/20 blur-3xl rounded-full top-[250px] left-[550px] z-0" />
+      <div className="absolute w-52 h-52 bg-pink-500/20 blur-3xl rounded-full bottom-0 sm:top-[250px] sm:left-[550px] z-0" />
+      <div className="absolute w-52 h-52 bg-blue-500/20 blur-3xl rounded-full sm:bottom-[250px] sm:right-[550px] z-0" />
 
       <div className="flex flex-col items-center gap-12">
         {services.map((service, index) => (

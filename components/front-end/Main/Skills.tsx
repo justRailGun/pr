@@ -66,12 +66,13 @@ const Skills = () => {
   </div>
     
     {/* Description */}
-    <p className="text-white text-5xl font-medium mt-4 mb-20 text-center tracking-wider">
+    <p className="text-white text-4xl md:text-5xl font-medium mt-4 mb-20 text-center tracking-wider">
         The Skills, Tools and Technologies i use: 
     </p>
     <div className="absolute w-72 h-72 bg-indigo-500/20 blur-3xl rounded-full top-[250px] left-[300px] z-0" />
 
-    
+    <div className="absolute w-72 h-72 bg-pink-500/20 blur-3xl rounded-full bottom-[150px] right-[300px] z-0" />
+
   {/* All skills in a shared group */}
   <div className="group flex flex-col gap-8 items-center">
     {/* Top row */}
